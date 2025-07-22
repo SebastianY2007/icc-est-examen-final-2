@@ -13,6 +13,8 @@ public class App {
         List<Maquina> maquinas = crearMaquinas();
         MaquinaController maquinaController = new MaquinaController();
 
+
+        // Imprimir 
         System.out.println("Lista de Maquinas Original: ");
         maquinas.forEach(System.out::println);
         
